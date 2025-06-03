@@ -19,18 +19,6 @@ const sakura = css`
     display: block;
   }
 
-  :host::before {
-      content:"";
-      display: block;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background-color: var(--primary-background);
-      z-index: -1;
-  }
-
   @media (max-width: 684px) {
     :host {
       font-size: 1.53rem;
@@ -128,6 +116,16 @@ const sakura = css`
     background-color: transparent;
     white-space: pre;
     font-size: 1em;
+  }
+
+  .card {
+      background: #3a2a1c;
+      color: #fff;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      white-space: normal; /* <--- KEY FIX */
+      overflow-wrap: break-word;
+      max-width: 100%;
   }
 
   table {

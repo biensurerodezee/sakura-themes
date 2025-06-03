@@ -1,12 +1,12 @@
 # Sakura Themes
 
-Sakura themes for Lit
+Sakura themes for both Lit and direct usage in any project by CDN
 
 ## Themes
 
 light, dark, red, orange, blue, green, darkRed, darkBlue, darkOrange, darkGreen
 
-## Usage
+## Usage in Lit
 
 First, in your Lit project, run:
 ```
@@ -49,3 +49,34 @@ class MyWebComponent extends LitElement {
     h1 { color: #ff0000 }
   `];
 ```
+
+## Usage in index.html
+
+**CDN** (*recommended*):
+
+1. Simply add this in your `<head>` tag:
+
+    ```html
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura-themes/sakura.css" type="text/css">
+    ```
+
+**Manually**:
+
+1. Download the file:
+
+    ```bash
+    wget "https://raw.githubusercontent.com/biensurerodezee/sakura-themes/master/sakura.css"
+    ```
+
+    **OR** download directly:
+    [sakura.css](https://raw.githubusercontent.com/biensurerodezee/sakura-themes/master/sakura.css)
+
+2. Link it from HTML:
+
+    ```html
+    <link rel="stylesheet" href="sakura.css" type="text/css">
+    ```
+
+## Example
+
+https://raw.githubusercontent.com/biensurerodezee/sakura-themes/master/index.html
