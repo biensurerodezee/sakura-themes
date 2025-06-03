@@ -120,7 +120,7 @@ const sakura = css`
 
   .card {
       background: var(--secondary-background);
-      color: #fff;
+      color: var(--secondary-color);
       padding: 1rem;
       border-radius: 0.5rem;
       white-space: normal;
