@@ -119,11 +119,11 @@ const sakura = css`
   }
 
   .card {
-      background: #3a2a1c;
+      background: var(--secondary-background);
       color: #fff;
       padding: 1rem;
       border-radius: 0.5rem;
-      white-space: normal; /* <--- KEY FIX */
+      white-space: normal;
       overflow-wrap: break-word;
       max-width: 100%;
   }
