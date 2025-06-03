@@ -79,4 +79,4 @@ class MyWebComponent extends LitElement {
 
 ## Example
 
-https://raw.githubusercontent.com/biensurerodezee/sakura-themes/master/index.html
+https://sakura-themes.surge.sh
